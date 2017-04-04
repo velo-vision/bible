@@ -295,8 +295,8 @@ get_header(); ?>
 <!-- FIN CONTENIDO -->
 
 <!-- INICIA SLIDER2 -->
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nopadding hidden-xs">
-	<div class="col-sm-6 col-md-6 col-lg-6 nopadding"><!-- beauty -->
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nopadding margin-tpcolab aumento-6">
+	<div class="col-sm-12 col-md-6 col-lg-6 nopadding separacion-colab"><!-- beauty -->
 	<?php global $post;
 		$args = array("posts_per_page" => 1,  "offset"=> 0, "category" => 5 ); //colaboracion 2
 			$myposts = get_posts( $args ); ?>
@@ -306,7 +306,7 @@ get_header(); ?>
 	        $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 	        echo '<li class="contenido-imagen3" style="background: url('. $url.');">';}?>
 			<div class="col-sm-3 col-md-3 text-beauty bg-beauty" style="border: 1px solid #fff;">
-				<div class="col-sm-12 col-md-12 col-lg-12 margin-imagenes">
+				<div class="col-sm-12 col-md-12 col-lg-12 margin-imagenes margin-colab paddin-cero">
 					<a href="<?php echo get_category_link(5); ?>"><?php echo do_shortcode ('[block id="beauty_cajas"]'); ?></a>
 					<p class="fecha"><?php echo get_the_date( get_option('date_format') ); ?></p>
 					<div class="col-sm-12 eliminar">
@@ -319,7 +319,7 @@ get_header(); ?>
 		<?php endforeach; ?>
 	</div>
 
-	<div class="col-sm-6 col-md-6 col-lg-6 nopadding"><!-- wedding dresses -->
+	<div class="col-sm-12 col-md-6 col-lg-6 nopadding separacion-colab"><!-- wedding dresses -->
 	<?php global $post;
 		$args = array("posts_per_page" => 1,  "offset"=> 0, "category" => 10 ); //colaboración 3
 			$myposts = get_posts( $args ); ?>
@@ -329,7 +329,7 @@ get_header(); ?>
 	        $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 	        echo '<li class="contenido-imagen3" style="background: url('. $url.');">';}?>
 			<div class="col-sm-3 col-md-3 text-beauty bg-beauty" style="border: 1px solid #fff;">
-				<div class="col-sm-12 col-md-12 col-lg-12 margin-imagenes">
+				<div class="col-sm-12 col-md-12 col-lg-12 margin-imagenes margin-colab paddin-cero">
 					<a href="<?php echo get_category_link(10); ?>"><?php echo do_shortcode ('[block id="wedding-dresses-cajas"]'); ?></a>
 					<p class="fecha"><?php echo get_the_date( get_option('date_format') ); ?></p>
 					<div class="col-sm-12 eliminar">
@@ -462,8 +462,8 @@ get_header(); ?>
 <!-- FIN CONTENIDO -->
 
 <!-- INICIA SLIDER2 -->
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nopadding hidden-xs">
-	<div class="col-sm-6 col-md-6 col-lg-6 nopadding"><!-- beauty -->
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nopadding margin-tpcolab">
+	<div class="col-sm-12 col-md-6 col-lg-6 nopadding separacion-colab"><!-- beauty -->
 	<?php global $post;
 		$args = array("posts_per_page" => 1,  "offset"=> 0, "category" => 26 ); //colaboración 4
 			$myposts = get_posts( $args ); ?>
@@ -474,7 +474,7 @@ get_header(); ?>
 	        $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 	        echo '<li class="contenido-imagen3" style="background: url('. $url.');">';}?>
 			<div class="col-sm-3 col-md-3 text-beauty bg-beauty" style="border: 1px solid #fff;">
-				<div class="col-sm-12 col-md-12 col-lg-12 margin-imagenes">
+				<div class="col-sm-12 col-md-12 col-lg-12 margin-imagenes margin-colab paddin-cero">
 					<a href="<?php echo get_category_link(26); ?>"><?php echo do_shortcode ('[block id="colaboracion4"]'); ?></a>
 					<p class="fecha"><?php echo get_the_date( get_option('date_format') ); ?></p>
 					<div class="col-sm-12 eliminar">
@@ -487,7 +487,7 @@ get_header(); ?>
 		<?php endforeach; ?>
 	</div>
 
-	<div class="col-sm-6 col-md-6 col-lg-6 nopadding"><!-- wedding dresses -->
+	<div class="col-sm-12 col-md-6 col-lg-6 nopadding separacion-colab"><!-- wedding dresses -->
 	<?php global $post;
 		$args = array("posts_per_page" => 1,  "offset"=> 0, "category" => 27 ); //colaboración 5
 			$myposts = get_posts( $args ); ?>
@@ -498,7 +498,7 @@ get_header(); ?>
 	        $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 	        echo '<li class="contenido-imagen3" style="background: url('. $url.');">';}?>
 			<div class="col-sm-3 col-md-3 text-beauty bg-beauty" style="border: 1px solid #fff;">
-				<div class="col-sm-12 col-md-12 col-lg-12 margin-imagenes">
+				<div class="col-sm-12 col-md-12 col-lg-12 margin-imagenes margin-colab paddin-cero">
 					<a href="<?php echo get_category_link(27); ?>"><?php echo do_shortcode ('[block id="colaboracion-5"]'); ?></a>
 					<p class="fecha"><?php echo get_the_date( get_option('date_format') ); ?></p>
 					<div class="col-sm-12 eliminar">
@@ -513,7 +513,7 @@ get_header(); ?>
 </div>
 <!-- FIN SLIDER 2 -->
 <!--categoria extra-->
-<div class="col-xs-12 col-md-12 col-lg-11 padding-category">
+<div class="col-xs-12 col-md-12 col-lg-11 padding-category sep-boda">
  <?php
 	  global $post;
 	  $args = array( "posts_per_page" => 1, "offset"=> 0, "category" => 16); //servicios para tu boda 16
@@ -523,7 +523,7 @@ get_header(); ?>
 				<div class="col-sm-5 col-md-7 col-lg-5 sobre2 img-variado2">
 					<div class="adorno"><img src="<?php bloginfo('template_url') ?>/img/flor.png"></div>
 					<div class="adorno2"><img src="<?php bloginfo('template_url') ?>/img/flor2.png"></div>
-					<div class="col-sm-12 col-md-12 col-lg-12 sin margenrayas">
+					<div class="col-sm-12 col-md-12 col-lg-12 sin margenrayas altura">
 						<div class="col-sm-12 col-md-12 col-lg-12 text-weding sep">
   							<a href="<?php echo get_category_link(16); ?>"><b>servicios para tu boda</b></a>
 	  					</div>
@@ -682,8 +682,8 @@ get_header(); ?>
 <!-- FIN CONTENIDO -->
 
 <!-- INICIA SLIDER2 -->
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nopadding hidden-xs">
-	<div class="col-sm-6 col-md-6 col-lg-6 nopadding"><!-- beauty -->
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nopadding margin-tpcolab">
+	<div class="col-sm-12 col-md-6 col-lg-6 nopadding separacion-colab"><!-- beauty -->
 	<?php global $post;
 		$args = array("posts_per_page" => 1,  "offset"=> 0, "category" => 28 ); //colabroacion 6
 			$myposts = get_posts( $args ); ?>
@@ -694,7 +694,7 @@ get_header(); ?>
 	        $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 	        echo '<li class="contenido-imagen3" style="background: url('. $url.');">';}?>
 			<div class="col-sm-3 col-md-3 text-beauty bg-beauty" style="border: 1px solid #fff;">
-				<div class="col-sm-12 col-md-12 col-lg-12 margin-imagenes">
+				<div class="col-sm-12 col-md-12 col-lg-12 margin-imagenes margin-colab paddin-cero">
 					<a href="<?php echo get_category_link(28); ?>"><?php echo do_shortcode ('[block id="colaboracion-6"]'); ?></a>
 					<p class="fecha"><?php echo get_the_date( get_option('date_format') ); ?></p>
 					<div class="col-sm-12 eliminar">
@@ -707,7 +707,7 @@ get_header(); ?>
 		<?php endforeach; ?>
 	</div>
 
-	<div class="col-sm-6 col-md-6 col-lg-6 nopadding"><!-- wedding dresses -->
+	<div class="col-sm-12 col-md-6 col-lg-6 nopadding separacion-colab"><!-- wedding dresses -->
 	<?php global $post;
 		$args = array("posts_per_page" => 1,  "offset"=> 0, "category" => 29 ); //colaboracion 7
 			$myposts = get_posts( $args ); ?>
@@ -718,7 +718,7 @@ get_header(); ?>
 	        $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 	        echo '<li class="contenido-imagen3" style="background: url('. $url.');">';}?>
 			<div class="col-sm-3 col-md-3 text-beauty bg-beauty" style="border: 1px solid #fff;">
-				<div class="col-sm-12 col-md-12 col-lg-12 margin-imagenes">
+				<div class="col-sm-12 col-md-12 col-lg-12 margin-imagenes margin-colab paddin-cero">
 					<a href="<?php echo get_category_link(29); ?>"><?php echo do_shortcode ('[block id="colaboracion-7"]'); ?></a>
 					<p class="fecha"><?php echo get_the_date( get_option('date_format') ); ?></p>
 					<div class="col-sm-12 eliminar">
@@ -734,7 +734,7 @@ get_header(); ?>
 <!-- FIN SLIDER 2 -->
 <!--est-->
 <!--  imagen muestra a la izquierda -->
-<div class="col-xs-12 col-md-12 col-lg-11 padding-category">
+<div class="col-xs-12 col-md-12 col-lg-11 padding-category aumento-4">
  <?php
 	  global $post;
 	  $args = array( "posts_per_page" => 1, "offset"=> 0, "category" => 15); //categoria 15 el gran dia
@@ -849,8 +849,8 @@ get_header(); ?>
 </div>
 <!---->
 <!-- INICIA SLIDER2 -->
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nopadding hidden-xs">
-	<div class="col-sm-6 col-md-6 col-lg-6 nopadding"><!-- beauty -->
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nopadding aumento-10">
+	<div class="col-sm-12 col-md-6 col-lg-6 nopadding separacion-colab"><!-- beauty -->
 	<?php global $post;
 		$args = array("posts_per_page" => 1,  "offset"=> 0, "category" => 30 ); //colaboracion 8
 			$myposts = get_posts( $args ); ?>
@@ -861,7 +861,7 @@ get_header(); ?>
 	        $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 	        echo '<li class="contenido-imagen3" style="background: url('. $url.');">';}?>
 			<div class="col-sm-3 col-md-3 text-beauty bg-beauty" style="border: 1px solid #fff;">
-				<div class="col-sm-12 col-md-12 col-lg-12 margin-imagenes">
+				<div class="col-sm-12 col-md-12 col-lg-12 margin-imagenes margin-colab paddin-cero">
 					<a href="<?php echo get_category_link(30); ?>"><?php echo do_shortcode ('[block id="colaboracion-8"]'); ?></a>
 					<p class="fecha"><?php echo get_the_date( get_option('date_format') ); ?></p>
 					<div class="col-sm-12 eliminar">
@@ -874,7 +874,7 @@ get_header(); ?>
 		<?php endforeach; ?>
 	</div>
 
-	<div class="col-sm-6 col-md-6 col-lg-6 nopadding"><!-- wedding dresses -->
+	<div class="col-sm-12 col-md-6 col-lg-6 nopadding separacion-colab"><!-- wedding dresses -->
 	<?php global $post;
 		$args = array("posts_per_page" => 1,  "offset"=> 0, "category" => 31 ); //colaboracion 9
 			$myposts = get_posts( $args ); ?>
@@ -883,7 +883,7 @@ get_header(); ?>
 			<?php  if (has_post_thumbnail()) { $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 			        echo '<li class="contenido-imagen3" style="background: url('. $url.');">';}?>
 			<div class="col-sm-3 col-md-3 text-beauty bg-beauty" style="border: 1px solid #fff;">
-				<div class="col-sm-12 col-md-12 col-lg-12 margin-imagenes">
+				<div class="col-sm-12 col-md-12 col-lg-12 margin-imagenes margin-colab paddin-cero">
 					<a href="<?php echo get_category_link(31); ?>"><?php echo do_shortcode ('[block id="colaboracion-9"]'); ?></a>
 					<p class="fecha"><?php echo get_the_date( get_option('date_format') ); ?></p>
 					<div class="col-sm-12 eliminar">

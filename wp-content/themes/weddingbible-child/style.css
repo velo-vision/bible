@@ -2301,11 +2301,6 @@ left: 21% !important;
   display: none;
 }
 
-.bg-beauty {
-    height: 72%;
-    margin-top: 13%;
-}
-
 .text-beauty strong {
     font-size: .9em;
 }
@@ -2413,7 +2408,7 @@ left: 21% !important;
     background-size: 138% !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
-    height: 117px;
+    height: 200px;
     list-style: none;
     background-attachment: scroll !important;
 }
@@ -2426,11 +2421,13 @@ left: 21% !important;
     list-style: none;
     background-attachment: scroll !important;
 }
-
-  .derechos {
-     margin-left: 0px;
+.separacion-colab{
+  margin-top: 3%;
 }
 
+.derechos {
+  margin-left: 0px;
+}
   .nomargin1 {
        margin: 0px !important;
   }
@@ -2582,8 +2579,11 @@ label {
 .title-day {
   text-align: center;
   padding: 0px;
+  font-size: .7em;
 }
-
+.sep-boda{
+  margin-top: 13%;
+}
 .leer {
   text-align: center;
 }
@@ -2621,12 +2621,18 @@ label {
     margin-top: 10px;
 }
 
-
+.paddin-cero{
+  padding: 0px;
+}
 
 .bg-beauty {
-    padding-bottom: 20px;
-    padding-top: 20px;
-     background-clip: border-box;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  background-clip: border-box;
+  left: 6%;
+  width: 87%;
+  top: 17%;
+  height: 57%;
 }
 
 .text-beauty p {
@@ -2641,7 +2647,7 @@ label {
 
 .text-beauty a {
     font-size: .8em;
-    line-height: 35px;
+    line-height: 27px;
 }
 
 .botones2 .bx-wrapper .bx-controls-direction a {
@@ -2693,7 +2699,7 @@ label {
 }
 
 .text-slider strong {
-    font-size: .7em;
+    font-size: .5em;
     line-height: 1.7em;
 }
 
@@ -2789,7 +2795,7 @@ label {
 }
 .sobre2 {
     position: absolute;
-    top: 107%;
+    top: 100%;
     right: 0% !important;
     /* border: solid; */
     background: #fff;
@@ -2807,7 +2813,7 @@ label {
 }
 .sin{
 padding: 0px;
-margin-bottom: 111%;
+margin-bottom: 95%;
 }
 .contenedor2 {
     position: relative;
@@ -2828,11 +2834,21 @@ margin-bottom: 111%;
     /* border: solid; */
     background: #fff;
 }
+
+.aumento-10{
+  margin: 10% 0;
+}
+.aumento-4{
+  margin-top: 4%;
+}
+.aumento-6{
+  margin: 6% 0;
+}
 #block-suscribete{
   height: 0px;
 }
 .img-variado {
-    height: 228px;
+    height: 200px;
     background-size: 100% !important;
 }
 .size-mas {
@@ -2850,22 +2866,23 @@ margin-bottom: 111%;
 .botones .bx-wrapper .bx-controls-direction a {
     top: 80%;
 }
+
 .img-variado2 {
-    height: 369px;
-}
-.img-variado2 {
-    height: 369px;
-     background-image: none !important;
+    height: 260px;
+    background-image: none !important;
+    padding: 0px;
 }
 .margenrayas {
     background-color: #fff;
     margin-top: 4%;
-    height: 324px;
+    height: 260px;
 }
-
-
-
-
+.altura{
+  height: 290px;
+}
+.margin-tpcolab{
+  margin-top: 7%;
+}
 }
 
 @media only screen and (max-width: 992px) and (min-width: 600px){
@@ -3435,10 +3452,24 @@ h1.entry-title {
 }
 
 .contenido-imagen3{
-  display: none;
+  background-size: 138% !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  height: 205px;
+  list-style: none;
+  background-attachment: scroll !important;
 }
 
-
+.bg-beauty {
+  height: 72%;
+  margin-top: -5%;
+}
+.margin-colab{
+  margin-top: 3%;
+}
+.separacion-colab{
+  margin: 2% 0;
+}
 /*segundo*/
 .sobre2 {
     position: absolute;
